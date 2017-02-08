@@ -59,7 +59,7 @@
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Doctors On Call For Service</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Engagement Fidelite Efficacite</h5>
         </div>
         <div class="row center">
           <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
@@ -81,7 +81,6 @@
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Des Docteurs Qualifies</h5>
-
             <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
           </div>
         </div>
@@ -127,15 +126,25 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          <p class="left-align light">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          </p>
           <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="http://lorempixel.com/250/250/nature/1"></a>
-            <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/250/250/nature/2"></a>
-            <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/250/250/nature/3"></a>
+            <a class="carousel-item" href="#one!">
+              <img src="http://lorempixel.com/250/250/nature/1">
+              <p>Trouver un Docteur</p>
+            </a>
+            <a class="carousel-item" href="#two!">
+              <img src="http://lorempixel.com/250/250/nature/2">
+              <p>Prenez un Rendez-vous</p>
+            </a>
+            <a class="carousel-item" href="#three!">
+              <img src="http://lorempixel.com/250/250/nature/3">
+              <p>Urgence</p>
+            </a>
             <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/250/250/nature/4"></a>
             <a class="carousel-item" href="#five!"><img src="http://lorempixel.com/250/250/nature/5"></a>
           </div>
-          </p>
         </div>
       </div>
 
@@ -158,10 +167,14 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+          <h5 class="white-text">Docs's Short Bio</h5>
+          <div>
+            <img src="cross.gif" alt="">
+          </div>
+          <p class="grey-text text-lighten-4">
+            En date du 12.01.2016, DOCS, en partenariat avec la Coopération Italienne/programme d’urgence au Kivu, a procédé à la remise des  brevets à 14 lauréates du projet de réinsertion socioprofessionnelle des filles et femmes pour leur autonomisation par la formation en coupe et couture. En cette même occasion, des matériels  modernes de coupe et couture ont été remis à DOCS pour renforcer et pérenniser le projet susmentionné. le projet est exécuté par DOCS, dans la Ville de Goma en faveur des filles et femmes vulnérables, en vue de leur
+            autonomisation
+          </p>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
@@ -203,6 +216,12 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+        
+  </script>
 
   </body>
 </html>
